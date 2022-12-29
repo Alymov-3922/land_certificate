@@ -67,7 +67,7 @@ table > tbody .land_address, table > tbody .owner_info {
     margin: 30px;
 }
 
-#qrcode {
+#qrcode > img {
     width:80px;
     height:80px;
 }

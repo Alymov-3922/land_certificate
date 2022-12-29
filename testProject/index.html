@@ -18,6 +18,7 @@
     <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
             integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
             crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
     <title>Land Statement</title>
 </head>
@@ -29,7 +30,9 @@
             <h1>Электронная выписка</h1>
             <h3>на элементарный участок</h3>
         </div>
-        <img class="qr_code" src="img/qr_code.jpg" alt="qr_code">
+        <div class="qr_code">
+            <div id="qrcode"></div>
+        </div>
     </nav>
     <div class="date_num">
         <div class="num">№ 00123</div>
