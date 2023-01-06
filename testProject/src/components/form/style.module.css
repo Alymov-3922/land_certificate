@@ -1,0 +1,78 @@
+.form {
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  width: 500px;
+  margin-top: 50px;
+  display: flex;
+  direction: row;
+  box-sizing: border-box;
+  padding: 20px;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 255, 0.2);
+  /* direction: column; */
+}
+
+.form label {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 20px; */
+  /* border: 1px solid red; */
+}
+
+.formInput {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid rgb(2, 106, 167);
+  /* width: 50%; */
+  /* margin: 0 auto; */
+}
+
+.checkBox {
+  /* width: 100%; */
+  /* border: 1px solid red; */
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  padding: 15px 40px;
+  text-align: left;
+  display: inline-block;
+}
+.checkBoxBlock {
+  width: 100%;
+  /* padding-bottom: 20px; */
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 45px;
+}
+.checkBox input[type="checkbox"] {
+  border: 1px solid red;
+}
+
+.submit {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #0058a6;
+  border: 1px solid #0058a6;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+}
+.submit:hover {
+
+}
+
+.error {
+  border: 1px solid red;
+  /* outline: 1px solid red; */
+}
+.errorSpan {
+  color: red;
+  width: 100%;
+  padding: 5px;
+}
